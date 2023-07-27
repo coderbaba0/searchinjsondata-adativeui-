@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Contacts Demo',
+      title: 'Search on Adative UI',
       debugShowCheckedModeBanner: false,
       home: StorageUpload(),
     );
@@ -51,15 +51,16 @@ class StorageUploadState extends State<StorageUpload> {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
+        backgroundColor: Colors.purple,
         title: new Text(
-          " Contacts",
+          " Flutterfever.com",
           style: new TextStyle(
             color: Colors.white,
           ),
         ),
       ),
       body: Container(
-        color: Colors.white,
+        color: Colors.orange,
         padding: EdgeInsets.all(10),
         child: Stack(
           children: [
